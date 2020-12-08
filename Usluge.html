@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Poliklinika Grbavac</title>
+	<meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/style5.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="shortcut icon" type="image/png" href="slike/ikone/logocolor.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+<body>
+	<div class="container">
+		<div class="infonav">
+		  <p><img src="slike/ikone/phone.png">(01) 377 69 96/(01) 370 23 26</p>
+		  <p><img src="slike/ikone/mail.png">info@poliklinika-grbavac.hr/ poliklinikagrbavac@gmail.com</p>
+		  <p><img src="slike/ikone/lokacija.png">Trg Francuske republike 12</p>
+		</div>
+
+		<div id="navbar" class="navbar">
+			<div class="middle">
+				<a class="left" href="index.html"><img src="slike/ikone/logocolor.png"></br>POLIKLINIKA GRBAVAC</a>
+				<div class="begone">
+					<a class="right" href="Kontakt.php">KONTAKT</a>
+					<a class="right" href="O nama.html">O NAMA</a>
+					<a class="right" href="Usluge.html">USLUGE</a>
+				</div>
+				<div id="hamburger">
+				<a onclick="openNav()">&#9776;</span></a>
+			</div>
+		  	</div>
+		</div>
+
+		<div id="myNav" class="overlay">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<div class="overlay-content">
+				<a class="down" href="Usluge.html">USLUGE</a>
+				<a class="down" href="O nama.html">O NAMA</a>
+				<a class="down" href="Kontakt.php">KONTAKT</a>
+
+				<div class="infonav-mob">
+					<p><img src="slike/ikone/phone.png">(01) 377 69 96/(01) 370 23 26</p>
+					<p><img src="slike/ikone/mail.png">info@poliklinika-grbavac.hr/ poliklinikagrbavac@gmail.com</p>
+					<p><img src="slike/ikone/lokacija.png">Trg Francuske republike 12</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="header">
+			<h1> USLUGE</h1>
+			<p>USLUGE KOJE NUDIMO U POLIKLINICI GRBAVAC</p>
+			<hr>
+		</div>
+
+		<div class="usluge">
+			<div class="text1">
+			<h3>ŠTO NUDIMO?</h3>
+			<h2> DVA PUTA KLIKNITE NA USLUGU ZA VIŠE INFORMACIJA</h2>
+			</div>
+		</div>
+
+		<div class="tab">
+		  <button class="tablinks" onclick="openCity(event, 'lijecimo')" id="defaultOpen"><img src="slike/ikone/mozak.png"><br/><h1>LIJEČIMO</h1></button>
+		  <button class="tablinks" onclick="openCity(event, 'preveniramo')"><img src="slike/ikone/lijek.png"><h1>PREVENIRAMO</h1></button>
+		  <button class="tablinks" onclick="openCity(event, 'dijagpost')"><img src="slike/ikone/srce.png"><h1>DIJAGNOSTIČKI</br> POSTUPCI</h1></button>
+		  <button class="tablinks" onclick="openCity(event, 'urodinamika')"><img src="slike/ikone/srce.png"><h1>URODINAMIKA</h1></button>
+		</div>
+
+
+		<div id="lijecimo" class="tabcontent">
+		  <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+				<p>
+					<img src="slike/lista.png">Sve vrste glavobolja, raznovrsne vrtoglavice, incipijentne dementne sindrome (prvenstveno Alzheimerov sindrom), sve vrste epilepsija, bolne sindrome, multiplu sklerozu i njoj srodne sustavne bolesti, Parkinsonovu bolest te sve ostale neurološke bolesti. </br>
+					Posebno se bavimo liječenjem posljedica moždanog udara. </br>
+					<img src="slike/lista.png">Sve vrste noćnog mokrenja </br>
+					<img src="slike/lista.png">Liječenje svih oblika neurogenih poremećaja mokrenja (inkontinencija, otežano izmokravanje, nemogućnost izmokravanja). </br>
+					<img src="slike/lista.png">Vrsni internisti-kardiolozi bave se dijagnostikom i liječenjem internističkih, te posebice kardioloških bolesti. </br>
+					<img src="slike/lista.png">Vrsni psihijatri, psihoterapeuti s višegodišnjim kliničkim iskustvom uspješno provode dijagnostiku i liječenje svih psihičkih smetnji. Uspješno liječe sve oblike ovisnosti. Provode suvremeni antistresni program.Individualna i  grupna  psihoterapija . </br>
+					<img src="slike/lista.png">Poliklinika osigurava bolnički smještaj i liječenje u KBC "Rebro" te KB "Sestre milosrdnice".
+				</p>
+		</div>
+
+		<div id="preveniramo" class="tabcontent">
+		  <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+			<p> 
+				<img src="slike/lista.png">razvoj ateroskleroze krvnih žila, a posebno moždanih i srčanih krvnih žila te poremećaje moždane cirkulacije.
+			</p>
+		</div>
+
+		<div id="dijagpost" class="tabcontent">
+		  <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+		  <p> <img src="slike/lista.png">Ultrazvučna analiza cirkulacije</br>
+					<img src="slike/lista.png">doppler karotida ( CD ) ; CDFI KAROTIDA i VB sliva</br>
+					<img src="slike/lista.png">transkranijski color doppler Willisovog  kruga (TCD)</br>
+					<img src="slike/lista.png">transkranijski color doppler vertebralnih i bazilarne arterije (TCD VB sliva)</br>
+					<img src="slike/lista.png">TCD VB sliva s funkcijskim testovima</br>
+					<img src="slike/lista.png">Ultrazvuk srca, Ultrazvuk abdominalne aorte</br>
+					<img src="slike/lista.png">Ultrazvuk vena i arterija ruku i nogu, ultrazvuk arterije subklavije</br>
+					<img src="slike/lista.png">Ultrazvuk abdomena, ultrazvuk bubrega, ultrazvuk renalnih arterija, ultrazvuk nadbubrežnih žlijezda</br>
+					<img src="slike/lista.png">Ultrazvuk jetre i žučnog mjehura, ultrazvuk gušterače, ultrazvuk slezene</br>
+					<img src="slike/lista.png">Ultrazvuk vrata, ultrazvuk štitnjače</br>
+					<img src="slike/lista.png">EEG s metodama provokacije i EEG nakon deprivacije spavanja</br>
+					<img src="slike/lista.png">EMNG ruku, nogu i lica (aparat nove generacije iz 2014.godine omogućava primjenu "bezbolne analize" i testiranje vrsta tremora)</br>
+					<img src="slike/lista.png">SSEP (somatosenzorni evocirani potencijali): SSEP n. medianus, SSEP n. tibialis, SSEP n. pudendus, SSEP . radialis, SSEP  n. ulnaris</br>
+					<img src="slike/lista.png">VEP, BAER, VEMP, KOGNITIVNI EVOCIRANI POTENCIJALI</br>
+					<img src="slike/lista.png">SINKRONIZIRANO URODINAMSKO SNIMANJE koje uključuje EMG sfinkera + cistometriju + mikciometriju</br>
+					<img src="slike/lista.png">HOLTER SUSTAV ZA 24 SATNO MONITORIRANJE KRVNOG TLAKA</br>
+					<img src="slike/lista.png">EKG HOLTER ( 24 satno snimanje rada srca)</br>
+					<img src="slike/lista.png">EKG</br>
+					<img src="slike/lista.png">Neuropsihologijska egzaminacija
+				</p>
+		</div>
+
+		<div id="urodinamika" class="tabcontent">
+		  <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+		  <p>
+					<img src="slike/lista.png">Urodinamika je dijagnostička metoda kojom proučavamo normalnu i patološku fiziologiju izvodnih puteva urotrakta. Sastoji se od više komponenti, a najčešća kombinacija koja se koristi u praksi je:</br>
+				</p>
+
+					<div class="under">
+						<p>
+							<img src="slike/lista.png" >Mokraćni sustav</br>
+							<img src="slike/lista.png" >cistometrija kojom se mjeri odnos volumena i tlaka u mjehuru</br>
+							<img src="slike/lista.png" >profilometrija uretralnih tlakova kojom se mjere tlakovi u različitim dijelovima sfinktera</br>
+							<img src="slike/lista.png" >EMG sfinktera kojom se analizira električni potencijal sfinktera</br>
+							<img src="slike/lista.png" >mikciometrija kojom se mjeri protok urina u jedinici vremena</br></br>
+						</p>
+					</div>
+
+				<p>
+					<img src="slike/lista.png">Istovremenom analizom navedenih parametara moguće je objektivizirati stanje pacijenta te postaviti točnu dijagnozu i na taj način preporučiti najbolju terapiju.</br></br>
+					<img src="slike/lista.png">Urodinamika nam daje odgovor kakvu vrstu poremećaja mokrenja ima bolesnik : da li se radi o bježanju mokraće (inkontinenciji) zbog mjehura ili oštećenja sfinktera ili se radi o kombinaciji. Da li je poremećaj mokrenja uzrokovan oštećenjem perifernih živaca, oštećenjem živaca na nivou kralješnice ili je poremećaj mokrenja uzrokovan nekim oštećenjem u mozgu.</br></br>
+
+					<img src="slike/lista.png">Razumljivo terapijski pristup je različit. Kod nemogućnosti ( ili otežanog izmokravanja ) urodinamika nam daje odgovor da li je navedena smetnja uzrokovana oštećenjem mjehura, oštećenjem sfinktera ili se radi o nekom udaljenom oštećenju (npr. mozga) a pacijent ima poteškoće s izmokravanjem koje se često protumači kao lokalna promjena (npr. povećana prostata).</br></br>
+
+					<img src="slike/lista.png">Urodinamika je od neobično velike važnosti radi objektivizacije stanje kod oštećenja kralješnice (koju često prati oduzetost nogu) koje su vezane sa smetnjama mokrenja. U takvim slučajevima vrlo često je moguće pomoću lijekova pacijenta osoboditi katetera te spriječiti učestale uroinfekte koji su popratna pojava kod takvih bolesnika. Nakon urodinamskog snimanja moguće je kod najvećeg broja pacijenata rještiti tzv. noćno mokrenje. Urodinamika je jedina metoda kojom je moguće objektivizirati stanje kao i mjesto i uzrok poremećaja mokrenja te nakon iste ordinirati najbolje terapijske tretmane. Jedino urodinamikom možemo objektivno pratiti uspjeh
+				</p>
+		</div>
+
+
+
+		<div class="footer">
+			<div class="empty"></div>
+			<div class="fottext1">
+				<p><img src="slike/ikone/lokacija.png">Trg Francuske republike 12</p>
+				<p><img src="slike/ikone/phone.png">(01) 377 69 96/(01) 370 23 26 </p>
+				<p><img src="slike/ikone/mail.png">info@poliklinika-grbavac.hr/</p>
+				<p>poliklinikagrbavac@gmail.com </p>
+			</div>
+			<div class="fotlogo">
+				<img src="slike/ikone/logocolor.png">
+				<h2>POLIKLINIKA GRBAVAC</h2>
+			</div>
+			<div class="fottext2">
+				<p><img src="slike/ikone/kartica.png">IBAN  HR8623400091110907865 </p>
+				<p><img src="slike/ikone/osoba.png">Predsjednica upravnog vijeća: Nada Grbavac </p>
+				<p><img src="slike/ikone/vaga.png">Trgovački sud u Zagrebu</p>
+				<p>Tt-10/5935-2, MBS:080436856 </p>
+			</div>
+		</div>
+
+	</div>
+
+	<script src="js/js.js"></script>
+</body>
+</html>
