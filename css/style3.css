@@ -102,6 +102,16 @@ html{
 	line-height: 21px;
 	margin-right:10px;
 }
+
+.infonav a{
+	color: #7A7A7A;
+	text-align: center;
+	text-decoration: none;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+}
 .infonav img{
 	width:15px;
 	height:15px;

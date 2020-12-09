@@ -97,9 +97,9 @@
 <body>
 	<div class="container">
 		<div class="infonav">
-		  <p><img src="../slike/ikone/phone.png">(01) 377 69 96/(01) 370 23 26</p>
-		  <p><img src="../slike/ikone/mail.png">info@poliklinika-grbavac.hr/ poliklinikagrbavac@gmail.com</p>
-		  <p><img src="../slike/ikone/lokacija.png">Trg Francuske republike 12</p>
+		  <p><img src="../slike/ikone/phone.png"><a href="tel:013776996">(01) 377 69 96/</a><a href="013702126">(01) 370 23 26</a></p>
+		  <p><a href="mailto:info@poliklinika-grbavac.hr"><img src="../slike/ikone/mail.png">info@poliklinika-grbavac.hr</a>/<a href="mailto:poliklinikagrbavac@gmail.com"> poliklinikagrbavac@gmail.com</a></p>
+		  <p><a href="https://goo.gl/maps/FEkXwJM5ehZoqto46"><img src="../slike/ikone/lokacija.png">Trg Francuske republike 12</p></a>
 		</div>
 
 		<div id="navbar" class="navbar">
