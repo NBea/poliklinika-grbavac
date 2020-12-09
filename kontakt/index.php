@@ -88,27 +88,27 @@
 
 	<title>Poliklinika Grbavac</title>
 	<meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="css/style4.css">
+    <link rel="stylesheet" type="text/css" href="../css/style4.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <link rel="shortcut icon" type="image/png" href="slike/ikone/logocolor.png">
+    <link rel="shortcut icon" type="image/png" href="../slike/ikone/logocolor.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 </head>
 <body>
 	<div class="container">
 		<div class="infonav">
-		  <p><img src="slike/ikone/phone.png">(01) 377 69 96/(01) 370 23 26</p>
-		  <p><img src="slike/ikone/mail.png">info@poliklinika-grbavac.hr/ poliklinikagrbavac@gmail.com</p>
-		  <p><img src="slike/ikone/lokacija.png">Trg Francuske republike 12</p>
+		  <p><img src="../slike/ikone/phone.png">(01) 377 69 96/(01) 370 23 26</p>
+		  <p><img src="../slike/ikone/mail.png">info@poliklinika-grbavac.hr/ poliklinikagrbavac@gmail.com</p>
+		  <p><img src="../slike/ikone/lokacija.png">Trg Francuske republike 12</p>
 		</div>
 
 		<div id="navbar" class="navbar">
 			<div class="middle">
-				<a class="left" href="index.html"><img src="slike/ikone/logocolor.png"></br>POLIKLINIKA GRBAVAC</a>
+				<a class="left" href="../"><img src="../slike/ikone/logocolor.png"></br>POLIKLINIKA GRBAVAC</a>
 				<div class="begone">
-					<a class="right" href="Kontakt.html">KONTAKT</a>
-					<a class="right" href="O nama.html">O NAMA</a>
-					<a class="right" href="Usluge.html">USLUGE</a>
+				<a class="right" href="../kontakt">KONTAKT</a>
+					<a class="right" href="../o-nama">O NAMA</a>
+					<a class="right" href="../usluge">USLUGE</a>
 				</div>
 				<div id="hamburger">
 				<a onclick="openNav()">&#9776;</span></a>
@@ -119,14 +119,14 @@
 		<div id="myNav" class="overlay">
 			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 			<div class="overlay-content">
-				<a class="down" href="Usluge.html">USLUGE</a>
-				<a class="down" href="O nama.html">O NAMA</a>
-				<a class="down" href="Kontakt.html">KONTAKT</a>
+				<a class="down" href="../usluge">USLUGE</a>
+				<a class="down" href="../o-nama">O NAMA</a>
+				<a class="down" href="../kontakt">KONTAKT</a>
 
 				<div class="infonav-mob">
-					<p><img src="slike/ikone/phone.png">(01) 377 69 96/(01) 370 23 26</p>
-					<p><img src="slike/ikone/mail.png">info@poliklinika-grbavac.hr/ poliklinikagrbavac@gmail.com</p>
-					<p><img src="slike/ikone/lokacija.png">Trg Francuske republike 12</p>
+					<p><img src="../slike/ikone/phone.png">(01) 377 69 96/(01) 370 23 26</p>
+					<p><img src="../slike/ikone/mail.png">info@poliklinika-grbavac.hr/ poliklinikagrbavac@gmail.com</p>
+					<p><img src="../slike/ikone/lokacija.png">Trg Francuske republike 12</p>
 				</div>
 			</div>
 		</div>
@@ -172,25 +172,25 @@
 		<div class="footer">
 			<div class="empty"></div>
 			<div class="fottext1">
-				<p><img src="slike/ikone/lokacija.png">Trg Francuske republike 12</p>
-				<p><img src="slike/ikone/phone.png">(01) 377 69 96/(01) 370 23 26 </p>
-				<p><img src="slike/ikone/mail.png">info@poliklinika-grbavac.hr/</p>
+				<p><img src="../slike/ikone/lokacija.png">Trg Francuske republike 12</p>
+				<p><img src="../slike/ikone/phone.png">(01) 377 69 96/(01) 370 23 26 </p>
+				<p><img src="../slike/ikone/mail.png">info@poliklinika-grbavac.hr/</p>
 				<p>poliklinikagrbavac@gmail.com </p>
 			</div>
 			<div class="fotlogo">
-				<img src="slike/ikone/logocolor.png">
+				<img src="../slike/ikone/logocolor.png">
 				<h2>POLIKLINIKA GRBAVAC</h2>
 			</div>
 			<div class="fottext2">
-				<p><img src="slike/ikone/kartica.png">IBAN  HR8623400091110907865 </p>
-				<p><img src="slike/ikone/osoba.png">Predsjednica upravnog vijeća: Nada Grbavac </p>
-				<p><img src="slike/ikone/vaga.png">Trgovački sud u Zagrebu</p>
+				<p><img src="../slike/ikone/kartica.png">IBAN  HR8623400091110907865 </p>
+				<p><img src="../slike/ikone/osoba.png">Predsjednica upravnog vijeća: Nada Grbavac </p>
+				<p><img src="../slike/ikone/vaga.png">Trgovački sud u Zagrebu</p>
 				<p>Tt-10/5935-2, MBS:080436856 </p>
 			</div>
 		</div>
 
 	</div>
 
-	<script src="js/js.js"></script>
+	<script src="../js/js.js"></script>
 </body>
 </html>
